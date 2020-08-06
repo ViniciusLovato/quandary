@@ -1,7 +1,7 @@
 {
   "name": "quandary",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Circuit Breaker",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,12 @@
     "url": "git+https://github.com/ViniciusLovato/quandary.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Vinicius Lovato",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ViniciusLovato/quandary/issues"
   },
-  "homepage": "https://github.com/ViniciusLovato/quandary#readme"
+  "homepage": "https://github.com/ViniciusLovato/quandary#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }

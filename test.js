@@ -8,7 +8,7 @@ const itFailsSometimesRequest = (params) => {
 };
 
 const fallback = () => {
-  return "Fallback for the rescue!";
+  return "Fallback to the rescue!";
 };
 
 const breaker = new CircuitBreaker(itFailsSometimesRequest);
