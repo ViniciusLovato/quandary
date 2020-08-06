@@ -1,4 +1,4 @@
-const CircuitBreaker = require("./CircuitBreaker.js");
+const CircuitBreaker = require("./index.js");
 
 const itFailsSometimesRequest = (params) => {
   return new Promise((resolve, reject) => {
@@ -25,7 +25,7 @@ breaker.on("close", () => {
 
 setInterval(() => {
   breaker
-    .fire("parametro marotos", fallback)
+    .fire("params", fallback)
     .then(console.log)
     .catch(console.log);
 }, 1000);
